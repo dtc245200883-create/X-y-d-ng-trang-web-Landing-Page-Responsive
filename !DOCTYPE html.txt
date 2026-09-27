@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Responsive - MyBrand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Header & Điều hướng -->
+    <header class="header">
+        <div class="logo">MyBrand</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#testimonials">Đánh giá</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. Hero Section (Banner chính) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Chào mừng đến với MyBrand</h1>
+            <p>Giải pháp công nghệ số 1 giúp nâng tầm doanh nghiệp của bạn</p>
+            <a href="#services" class="btn">Tìm hiểu thêm</a>
+        </div>
+    </section>
+
+    <!-- 3. Section Dịch vụ (Sử dụng CSS Grid) -->
+    <section id="services" class="services">
+        <h2>Dịch vụ của chúng tôi</h2>
+        <p class="subtitle">Mang đến giá trị toàn diện cho sự phát triển của bạn</p>
+        
+        <div class="service-container">
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Thiết kế Web</h3>
+                <p>Giao diện hiện đại, tối ưu chuẩn SEO và trải nghiệm người dùng mượt mà trên mọi thiết bị.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">⚙️</div>
+                <h3>Phát triển Phần mềm</h3>
+                <p>Xây dựng hệ thống quản lý chuyên sâu, đáp ứng chuẩn xác quy trình nghiệp vụ doanh nghiệp.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📈</div>
+                <h3>Marketing Số</h3>
+                <p>Chiến lược truyền thông tổng thể giúp gia tăng tiếp cận khách hàng tiềm năng hiệu quả.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Section Đánh giá khách hàng (Testimonials) -->
+    <section id="testimonials" class="testimonials">
+        <h2>Khách hàng nói gì?</h2>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <p class="comment">"Dịch vụ tuyệt vời! Trang web của chúng tôi tăng gấp đôi lượng truy cập sau khi làm mới."</p>
+                <div class="author">- Nguyễn Văn A (CEO TechCorp)</div>
+            </div>
+            <div class="testimonial-card">
+                <p class="comment">"Đội ngũ hỗ trợ nhiệt tình, giải pháp phần mềm mượt mà rất đáng đầu tư."</p>
+                <div class="author">- Trần Thị B (Founder StartUp X)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Footer -->
+    <footer id="contact" class="footer">
+        <p>&copy; 2026 MyBrand. All rights reserved. | Hotline: 0900 123 456</p>
+    </footer>
+
+</body>
+</html><body>
+
+  <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Thanh điều hướng chính -->
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+        
+        <ul class="nav-links">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+        
+        <!-- Nút Hamburger hiển thị trên Mobile -->
+        <div class="menu-icon">&#9776;</div>
+    </nav>
+
+    <!-- Khối nội dung giả lập để kiểm tra giao diện -->
+    <main style="padding: 40px; text-align: center;">
+        <h1>Chào mừng đến với MyWebsite</h1>
+        <p>Hãy thử co giãn cửa sổ trình duyệt (hoặc dùng DevTools F12) để kiểm tra giao diện Mobile responsive.</p>
+    </main>
+
+</body>
+</html>
